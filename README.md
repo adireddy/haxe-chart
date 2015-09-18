@@ -1,4 +1,4 @@
-[![Haxelib Version](https://img.shields.io/github/tag/adireddy/haxe-chart.svg?style=flat&label=haxelib)](http://lib.haxe.org/p/buzz) ![Build Status](https://travis-ci.org/adireddy/haxe-chart.svg?branch=master) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+[![Haxelib Version](https://img.shields.io/github/tag/adireddy/haxe-chart.svg?style=flat&label=haxelib)](http://lib.haxe.org/p/chartjs) ![Build Status](https://travis-ci.org/adireddy/haxe-chart.svg?branch=master) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 =========
 
 ![logo](https://raw.githubusercontent.com/adireddy/haxe-chart/master/logo.png)
