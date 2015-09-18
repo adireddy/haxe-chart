@@ -18,5 +18,4 @@ extern class Chart {
 	function Pie(data:Dynamic, ?options:Dynamic):Void;
 
 	function Doughnut(data:Dynamic, ?options:Dynamic):Void;
-
 }
