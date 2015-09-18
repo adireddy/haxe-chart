@@ -7,9 +7,9 @@ extern class Chart {
 
 	function new(ctx:CanvasRenderingContext2D);
 
-	function Line(data:Dynamic, ?options:Dynamic):Void;
+	function Line(data:Dynamic, ?options:LineOptions):Void;
 
-	function Bar(data:Dynamic, ?options:Dynamic):Void;
+	function Bar(data:Dynamic, ?options:BarOptions):Void;
 
 	function Radar(data:Dynamic, ?options:Dynamic):Void;
 
