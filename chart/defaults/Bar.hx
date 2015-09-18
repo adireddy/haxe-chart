@@ -12,5 +12,5 @@ extern class Bar {
 	static var scaleGridLineWidth:Float;
 	static var scaleShowGridLines:Bool;
 	static var scaleShowHorizontalLines:Bool;
-	static var scaleShowVerticalLines:Bool;Doughnut
+	static var scaleShowVerticalLines:Bool;
 }
