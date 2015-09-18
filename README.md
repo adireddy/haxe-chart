@@ -1,7 +1,7 @@
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 =========
 
-Externs of Chart.js for Haxe
+Externs of Chart.js for Haxe - Simple, clean and engaging charts for designers and developers
 
 ### Installation ###
 
