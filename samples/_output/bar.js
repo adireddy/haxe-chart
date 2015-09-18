@@ -16,5 +16,3 @@ bar_Main.main = function() {
 };
 bar_Main.main();
 })(typeof console != "undefined" ? console : {log:function(){}});
-
-//# sourceMappingURL=bar.js.map

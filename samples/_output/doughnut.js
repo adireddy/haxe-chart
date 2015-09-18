@@ -16,5 +16,3 @@ doughnut_Main.main = function() {
 };
 doughnut_Main.main();
 })(typeof console != "undefined" ? console : {log:function(){}});
-
-//# sourceMappingURL=doughnut.js.map

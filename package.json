@@ -1,0 +1,37 @@
+{
+	"name": "chartjs",
+	"version": "0.0.1",
+	"description": "Externs of Chart.js for Haxe - Simple, clean and engaging charts for designers and developers",
+	"author": "Adi Reddy Mora",
+	"homepage": "http://adireddy.github.io",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/adireddy/haxe-chart"
+	},
+	"bugs": {
+		"url": "https://github.com/adireddy/haxe-chart/issues"
+	},
+	"keywords": [
+		"js",
+		"haxe",
+		"charts",
+		"graphs",
+		"chart.js",
+		"extern",
+		"web",
+		"library"
+	],
+	"dependencies": {
+		"grunt": "latest",
+		"grunt-cli": "latest"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"grunt-contrib-copy": "^0.7.0",
+		"grunt-exec": "^0.4.6",
+		"grunt-haxe": "^0.1.12",
+		"grunt-npm-install": "^0.2.0",
+		"grunt-shell": "^1.1.1",
+		"grunt-zip": "^0.16.0"
+	}
+}

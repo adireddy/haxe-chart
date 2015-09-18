@@ -1,8 +1,0 @@
-{
-"version":3,
-"file":"polar.js",
-"sourceRoot":"file:///",
-"sources":["/haxe/haxe-chart/samples/polar/Main.hx"],
-"names":[],
-"mappings":";aA4CO,FApCR;CAEY,AAFZ,EAEY,FACV,OACQ,AACD,IACK,JACJ,PAER,OACQ,AACA,IACI,JACJ,PAER,OACQ,AACA,IACI,JACJ,PAER,OACQ,AACA,IACI,JACJ,PAER,OACQ,AACA,IACI,JACJ;CAMmB;;;CAC3B,EAAY;CACZ,AAAkC;CAElC,EAAoB;CAEe,AAAkB;CACpC,KAAU;CAC3B,AAAqB;;kBAIf,PACN;;;;;;"
-}

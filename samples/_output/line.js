@@ -16,5 +16,3 @@ line_Main.main = function() {
 };
 line_Main.main();
 })(typeof console != "undefined" ? console : {log:function(){}});
-
-//# sourceMappingURL=line.js.map

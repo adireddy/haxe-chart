@@ -1,8 +1,0 @@
-{
-"version":3,
-"file":"pie.js",
-"sourceRoot":"file:///",
-"sources":["/haxe/haxe-chart/samples/pie/Main.hx"],
-"names":[],
-"mappings":";WA+BO,AAvBR;CAEY,AAFZ,EAEY,FACV,OACQ,AACD,IACK,JACJ,PAER,OACQ,AACA,IACI,JACJ,PAER,OACQ,AACA,IACI,JACJ;CAKmB;;;CAC3B,EAAY;CACZ,AAAkC;CAElC,EAAoB;CAEe,AAAkB;CACtC,KAAU;CACzB,AAAa;;gBAIP,LACN;;;;;;"
-}

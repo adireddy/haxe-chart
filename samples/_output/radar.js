@@ -16,5 +16,3 @@ radar_Main.main = function() {
 };
 radar_Main.main();
 })(typeof console != "undefined" ? console : {log:function(){}});
-
-//# sourceMappingURL=radar.js.map

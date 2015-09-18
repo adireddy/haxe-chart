@@ -16,5 +16,3 @@ polar_Main.main = function() {
 };
 polar_Main.main();
 })(typeof console != "undefined" ? console : {log:function(){}});
-
-//# sourceMappingURL=polar.js.map

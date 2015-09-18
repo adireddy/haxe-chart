@@ -1,0 +1,24 @@
+{
+	"name": "chartjs",
+	"license": "MIT",
+	"tags": [
+		"js",
+		"haxe",
+		"charts",
+		"graphs",
+		"chart.js",
+		"extern",
+		"web",
+		"library"
+	],
+	"description": "Externs of Chart.js for Haxe - Simple, clean and engaging charts for designers and developers",
+	"contributors": [
+		"adireddy"
+	],
+	"releasenote": "initial release",
+	"version": "0.0.1",
+	"url": "https://github.com/adireddy/haxe-chart",
+	"dependencies": {
+
+	}
+}

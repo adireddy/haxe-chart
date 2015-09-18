@@ -1,8 +1,0 @@
-{
-"version":3,
-"file":"doughnut.js",
-"sourceRoot":"file:///",
-"sources":["/haxe/haxe-chart/samples/doughnut/Main.hx"],
-"names":[],
-"mappings":";gBA+BO,LAvBR;CAEY,AAFZ,EAEY,FACV,OACQ,AACD,IACK,JACJ,PAER,OACQ,AACA,IACI,JACJ,PAER,OACQ,AACA,IACI,JACJ;CAKmB;;;CAC3B,EAAY;CACZ,AAAkC;CAElC,EAAoB;CAEe,AAAkB;CACjC,KAAU;CAC9B,AAAuB;;qBAIjB,VACN;;;;;;"
-}
