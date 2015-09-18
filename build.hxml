@@ -1,0 +1,34 @@
+-cp src
+-cp samples
+-debug
+-dce full
+
+--each
+
+-main line.Main
+-js samples/_output/line.js
+
+--next
+
+-main bar.Main
+-js samples/_output/bar.js
+
+--next
+
+-main radar.Main
+-js samples/_output/radar.js
+
+--next
+
+-main polar.Main
+-js samples/_output/polar.js
+
+--next
+
+-main pie.Main
+-js samples/_output/pie.js
+
+--next
+
+-main doughnut.Main
+-js samples/_output/doughnut.js
