@@ -8,7 +8,7 @@ Externs of Chart.js for Haxe - Simple, clean and engaging charts for designers a
 ### Installation ###
 
 ```haxe
-coming soon
+haxelib install chartjs
 ```
 
 ### Demo ###
