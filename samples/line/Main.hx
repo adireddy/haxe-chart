@@ -36,14 +36,19 @@ class Main {
 
 	public function new() {
 		var canvas:CanvasElement = Browser.document.createCanvasElement();
-		canvas.id = "myChart";
 		Browser.document.body.appendChild(canvas);
 
 		Global.responsive = true;
 
 		var ctx:CanvasRenderingContext2D = canvas.getContext("2d");
-		var lineChart = new Chart(ctx);
-		lineChart.Line(data);
+		var lineChart = new Chart(ctx).Line(data);
+
+		canvas.onclick = function(evt){
+			var activePoints = lineChart.getPointsAtEvent(evt);
+
+			trace(activePoints);
+			// => activePoints is an array of points on the canvas that are at the same position as the click event.
+		};
 
 	}
 

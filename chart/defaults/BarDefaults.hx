@@ -1,7 +1,7 @@
 package chart.defaults;
 
 @:native("Chart.defaults.Bar")
-extern class Bar {
+extern class BarDefaults {
 	static var barDatasetSpacing:Float;
 	static var barShowStroke:Bool;
 	static var barStrokeWidth:Float;

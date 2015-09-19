@@ -1,7 +1,7 @@
 package chart.defaults;
 
 @:native("Chart.defaults.Radar")
-extern class Radar {
+extern class RadarDefaults {
 	static var angleLineColor:String;
 	static var angleLineWidth:Float;
 	static var angleShowLineOut:Bool;

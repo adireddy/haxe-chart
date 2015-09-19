@@ -36,15 +36,12 @@ class Main {
 
 	public function new() {
 		var canvas:CanvasElement = Browser.document.createCanvasElement();
-		canvas.id = "myChart";
 		Browser.document.body.appendChild(canvas);
 
 		Global.responsive = true;
 
 		var ctx:CanvasRenderingContext2D = canvas.getContext("2d");
-		var radarChart = new Chart(ctx);
-		radarChart.Radar(data);
-
+		var radarChart = new Chart(ctx).Radar(data);
 	}
 
 	static function main() {

@@ -8,8 +8,11 @@ var line_Main = function() {
 	window.document.body.appendChild(canvas);
 	Chart.defaults.global.responsive = true;
 	var ctx = canvas.getContext("2d");
-	var lineChart = new Chart(ctx);
-	lineChart.Line(this.data);
+	var lineChart = new Chart(ctx).Line(this.data);
+	canvas.onclick = function(evt) {
+		var activePoints = lineChart.getPointsAtEvent(evt);
+		console.log(activePoints);
+	};
 };
 line_Main.main = function() {
 	new line_Main();

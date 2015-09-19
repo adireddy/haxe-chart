@@ -1,7 +1,7 @@
 package chart.defaults;
 
-@:native("Chart.defaults.Pie")
-extern class Pie {
+@:native("Chart.defaults.Doughnut")
+extern class DoughnutDefaults {
 	static var animateRotate:Bool;
 	static var animateScale:Bool;
 	static var animationEasing:String;

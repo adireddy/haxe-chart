@@ -44,15 +44,12 @@ class Main {
 
 	public function new() {
 		var canvas:CanvasElement = Browser.document.createCanvasElement();
-		canvas.id = "myChart";
 		Browser.document.body.appendChild(canvas);
 
 		Global.responsive = true;
 
 		var ctx:CanvasRenderingContext2D = canvas.getContext("2d");
-		var polarChart = new Chart(ctx);
-		polarChart.PolarArea(data);
-
+		var polarChart = new Chart(ctx).PolarArea(data);
 	}
 
 	static function main() {

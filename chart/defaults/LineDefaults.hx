@@ -1,7 +1,7 @@
 package chart.defaults;
 
 @:native("Chart.defaults.Line")
-extern class Line {
+extern class LineDefaults {
 	static var bezierCurve:Bool;
 	static var bezierCurveTension:Float;
 	static var datasetFill:Bool;

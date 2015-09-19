@@ -1,7 +1,7 @@
 package chart.defaults;
 
 @:native("Chart.defaults.PolarArea")
-extern class PolarArea {
+extern class PolarAreaDefaults {
 	static var animateRotate:Bool;
 	static var animateScale:Bool;
 	static var animationEasing:String;
