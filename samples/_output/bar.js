@@ -4,12 +4,14 @@ var bar_Main = function() {
 	var canvas;
 	var _this = window.document;
 	canvas = _this.createElement("canvas");
-	canvas.id = "myChart";
 	window.document.body.appendChild(canvas);
 	Chart.defaults.global.responsive = true;
 	var ctx = canvas.getContext("2d");
-	var barChart = new Chart(ctx);
-	barChart.Bar(this.data);
+	var barChart = new Chart(ctx).Bar(this.data);
+	canvas.onclick = function(evt) {
+		barChart.addData([Math.random() * 100,Math.random() * 100],"test");
+		barChart.update();
+	};
 };
 bar_Main.main = function() {
 	new bar_Main();

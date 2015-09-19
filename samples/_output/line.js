@@ -9,7 +9,7 @@ var line_Main = function() {
 	var ctx = canvas.getContext("2d");
 	var lineChart = new Chart(ctx).Line(this.data);
 	canvas.onclick = function(evt) {
-		lineChart.addData([Math.random() * 100],"sample");
+		lineChart.addData([Math.random() * 100],"test");
 		lineChart.update();
 	};
 };

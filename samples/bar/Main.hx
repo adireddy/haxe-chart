@@ -32,15 +32,17 @@ class Main {
 
 	public function new() {
 		var canvas:CanvasElement = Browser.document.createCanvasElement();
-		canvas.id = "myChart";
 		Browser.document.body.appendChild(canvas);
 
 		Global.responsive = true;
 
 		var ctx:CanvasRenderingContext2D = canvas.getContext("2d");
-		var barChart = new Chart(ctx);
-		barChart.Bar(data);
+		var barChart = new Chart(ctx).Bar(data);
 
+		canvas.onclick = function(evt) {
+			barChart.addData([Math.random() * 100, Math.random() * 100], "test");
+			barChart.update();
+		};
 	}
 
 	static function main() {
