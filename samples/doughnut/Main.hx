@@ -31,15 +31,22 @@ class Main {
 
 	public function new() {
 		var canvas:CanvasElement = Browser.document.createCanvasElement();
-		canvas.id = "myChart";
 		Browser.document.body.appendChild(canvas);
 
 		Global.responsive = true;
 
 		var ctx:CanvasRenderingContext2D = canvas.getContext("2d");
-		var doughnutChart = new Chart(ctx);
-		doughnutChart.Doughnut(data);
+		var doughnutChart = new Chart(ctx).Doughnut(data);
 
+		canvas.onclick = function(evt) {
+			doughnutChart.addData({
+				value: Math.random() * 100,
+				color: "#003366",
+				highlight: "#FF5A5E",
+				label: "test"
+			}, 0);
+			doughnutChart.update();
+		};
 	}
 
 	static function main() {
