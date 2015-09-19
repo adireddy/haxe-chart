@@ -44,7 +44,7 @@ class Main {
 		var lineChart = new Chart(ctx).Line(data);
 
 		canvas.onclick = function(evt) {
-			lineChart.addData([Math.random() * 100], "test");
+			lineChart.addData([Math.random() * 100, Math.random() * 100], "test");
 			lineChart.update();
 		};
 
