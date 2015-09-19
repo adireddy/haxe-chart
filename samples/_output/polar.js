@@ -4,12 +4,10 @@ var polar_Main = function() {
 	var canvas;
 	var _this = window.document;
 	canvas = _this.createElement("canvas");
-	canvas.id = "myChart";
 	window.document.body.appendChild(canvas);
 	Chart.defaults.global.responsive = true;
 	var ctx = canvas.getContext("2d");
-	var polarChart = new Chart(ctx);
-	polarChart.PolarArea(this.data);
+	var polarChart = new Chart(ctx).PolarArea(this.data);
 };
 polar_Main.main = function() {
 	new polar_Main();

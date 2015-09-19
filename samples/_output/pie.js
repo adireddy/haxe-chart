@@ -4,12 +4,10 @@ var pie_Main = function() {
 	var canvas;
 	var _this = window.document;
 	canvas = _this.createElement("canvas");
-	canvas.id = "myChart";
 	window.document.body.appendChild(canvas);
 	Chart.defaults.global.responsive = true;
 	var ctx = canvas.getContext("2d");
-	var pieChart = new Chart(ctx);
-	pieChart.Pie(this.data);
+	var pieChart = new Chart(ctx).Pie(this.data);
 };
 pie_Main.main = function() {
 	new pie_Main();

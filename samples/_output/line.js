@@ -4,14 +4,13 @@ var line_Main = function() {
 	var canvas;
 	var _this = window.document;
 	canvas = _this.createElement("canvas");
-	canvas.id = "myChart";
 	window.document.body.appendChild(canvas);
 	Chart.defaults.global.responsive = true;
 	var ctx = canvas.getContext("2d");
 	var lineChart = new Chart(ctx).Line(this.data);
 	canvas.onclick = function(evt) {
-		var activePoints = lineChart.getPointsAtEvent(evt);
-		console.log(activePoints);
+		lineChart.addData([Math.random() * 100],"sample");
+		lineChart.update();
 	};
 };
 line_Main.main = function() {
