@@ -8,6 +8,10 @@ var radar_Main = function() {
 	Chart.defaults.global.responsive = true;
 	var ctx = canvas.getContext("2d");
 	var radarChart = new Chart(ctx).Radar(this.data);
+	canvas.onclick = function(evt) {
+		radarChart.addData([Math.random() * 100],"test");
+		radarChart.update();
+	};
 };
 radar_Main.main = function() {
 	new radar_Main();

@@ -42,6 +42,11 @@ class Main {
 
 		var ctx:CanvasRenderingContext2D = canvas.getContext("2d");
 		var radarChart = new Chart(ctx).Radar(data);
+
+		canvas.onclick = function(evt) {
+			radarChart.addData([Math.random() * 100], "test");
+			radarChart.update();
+		};
 	}
 
 	static function main() {

@@ -4,7 +4,6 @@ import chart.defaults.Global;
 import js.html.CanvasRenderingContext2D;
 import js.html.CanvasElement;
 import chart.Chart;
-import chart.LineChart;
 import js.Browser;
 
 class Main {
@@ -42,7 +41,7 @@ class Main {
 		Global.responsive = true;
 
 		var ctx:CanvasRenderingContext2D = canvas.getContext("2d");
-		var lineChart:LineChart = new Chart(ctx).Line(data);
+		var lineChart = new Chart(ctx).Line(data);
 
 		canvas.onclick = function(evt) {
 			lineChart.addData([Math.random() * 100], "test");
