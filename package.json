@@ -1,6 +1,6 @@
 {
 	"name": "chartjs",
-	"version": "0.0.1",
+	"version": "1.0.1",
 	"description": "Externs of Chart.js for Haxe - Simple, clean and engaging charts for designers and developers",
 	"author": "Adi Reddy Mora",
 	"homepage": "http://adireddy.github.io",

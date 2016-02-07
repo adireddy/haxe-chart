@@ -11,7 +11,7 @@ extern class Chart {
 
 	function new(ctx:CanvasRenderingContext2D);
 
-	function Line(data:LineData, ?options:BarOptions):LineChart;
+	function Line(data:LineData, ?options:LineOptions):LineChart;
 
 	function Bar(data:BarData, ?options:BarOptions):BarChart;
 
